@@ -30,7 +30,7 @@ O Arkstorm é um sistema completo para monitorar condições climáticas adversa
 
 - spring-boot-starter-web
 - spring-boot-starter-data-jpa
-- ojdbc8 (Oracle)
+- ojdbc11 (Oracle)
 - org.json
 - springdoc-openapi-ui
 
