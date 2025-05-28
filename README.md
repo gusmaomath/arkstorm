@@ -2,6 +2,10 @@
 
 O Arkstorm é um sistema completo para monitorar condições climáticas adversas e prever riscos de apagão. Ele coleta dados de APIs públicas e permite consultas por cidade, endereço e histórico.
 
+- Julia Marques (RM98680)
+- Guilherme Morais (RM551981)
+- Matheus Gusmão (RM550826)
+
 ## 📦 Funcionalidades
 
 - Previsão do tempo por cidade
