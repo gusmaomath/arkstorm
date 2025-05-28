@@ -82,3 +82,70 @@ graph TD
     J --> K[Consulta banco com filtro de data]
     K --> L[Gera resumo com total e riscos]
 ```
+
+## ✅ Guia de Uso da API Arkstorm
+
+Este guia mostra como usar cada funcionalidade da API utilizando o Swagger UI ou ferramentas como Postman.
+
+---
+
+### 🔍 1. Consultar risco por cidade
+
+- Método: GET  
+- Endpoint: `/api/weather/{city}` 
+- Resposta esperada:
+```json
+{
+  "city": "São Paulo",
+  "status": "Sem risco identificado"
+}
+```
+
+### 📫 2. Consultar risco por endereço (geocodificação)
+
+- Método: POST
+- Endpoint: `/api/weather/local`
+- Body (JSON):
+```json
+{
+  "address": "Avenida Paulista, São Paulo"
+}
+```
+- Resposta esperada:
+```json
+{
+  "city": "Avenida Paulista, Bela Vista, São Paulo, ...",
+  "status": "Risco alto de apagão"
+}
+```
+### 🕒 3. Histórico de alertas por cidade
+
+- Método: GET
+- Endpoint: `/api/weather/history/{city}`
+- Resposta esperada:
+```json
+[
+  {
+    "id": 1,
+    "city": "Curitiba",
+    "description": "chuva forte",
+    "riskLevel": "Risco alto de apagão",
+    "timestamp": "2025-05-28T18:30:00"
+  }
+]
+```
+### 📊 4. Relatório de risco dos últimos dias
+
+- Método: GET
+- Endpoint: `/api/weather/report/{city}?days=7`
+- Resposta esperada:
+```json
+{
+  "city": "Curitiba",
+  "totalAlerts": 2,
+  "risks": [
+    "Sem risco identificado",
+    "Risco alto de apagão"
+  ]
+}
+```
