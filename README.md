@@ -1,4 +1,4 @@
-<img width="467" alt="Group 1" src="https://github.com/user-attachments/assets/7c3208ea-97bf-4b68-8a4c-a800a68d2d65" />
+<img width="467" alt="Logo dark mode" src="https://github.com/user-attachments/assets/169be40e-8e44-41ee-be43-e73022479cd7" />
 
 # Arkstorm - Monitoramento de Apagões por Clima
 
