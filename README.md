@@ -1,4 +1,6 @@
-# 🌩️ Arkstorm – Monitoramento de Apagões por Clima
+![Imagem do WhatsApp de 2025-05-28 à(s) 22 15 41_748c73df](https://github.com/user-attachments/assets/187f9cb7-0110-4cec-b5fc-011fb0454dcd)
+
+# Monitoramento de Apagões por Clima
 
 O Arkstorm é um sistema completo para monitorar condições climáticas adversas e prever riscos de apagão. Ele coleta dados de APIs públicas e permite consultas por cidade, endereço e histórico.
 
