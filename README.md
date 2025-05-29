@@ -1,4 +1,4 @@
-![Imagem do WhatsApp de 2025-05-28 à(s) 22 15 41_748c73df](https://github.com/user-attachments/assets/187f9cb7-0110-4cec-b5fc-011fb0454dcd)
+<img width="467" alt="Group 1" src="https://github.com/user-attachments/assets/7c3208ea-97bf-4b68-8a4c-a800a68d2d65" />
 
 # Monitoramento de Apagões por Clima
 
